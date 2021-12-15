@@ -80,6 +80,23 @@ body {
     outline: none;
 }
 
+.container [type="password"] {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+    outline: none;
+}
+
+.container [type="password"]:hover {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ba4c73;
+    height: 40px;
+    transition: all .3s ease-in-out;
+    outline: none;
+}
+
 .container input::placeholder {
     color: rgba(0, 0, 0, 0.5);
 }
